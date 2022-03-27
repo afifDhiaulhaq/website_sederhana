@@ -1,0 +1,80 @@
+/* Header */
+
+header {
+  background-color: white;
+  box-shadow: 3px;
+  padding: 5px;
+  margin-top: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+img {
+  top: 10px;
+  position: absolute;
+  cursor: not-allowed;
+}
+
+nav {
+  text-align: end;
+}
+
+nav ul {
+  /* text-align: end; */
+  display: inline-block;
+  font-family: Verdana;
+}
+
+ul a {
+  color: rgb(80, 80, 177);
+  margin-left: 7px;
+  font-family: Verdana;
+}
+
+ul a:hover {
+  color: rgb(255, 55, 165);
+}
+
+/* section */
+
+body {
+  background-image: url("./img/sample-pattern.png");
+}
+/* section {
+  position: relative;
+} */
+
+#article-list {
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px 120px 50px 120px;
+  padding: 20px 40px 20px 40px;
+  box-shadow: 3px;
+}
+
+h1 {
+  color: rgb(80, 80, 177);
+  font-weight: 200;
+  text-align: center;
+  font-family: Verdana;
+}
+
+article a {
+  color: rgb(118, 118, 204);
+  font-family: Verdana;
+  text-align: justify;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(56, 56, 56);
+  padding: 1px;
+}
+
+footer h5 {
+  text-align: center;
+  color: white;
+}
